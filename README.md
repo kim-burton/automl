@@ -5,5 +5,5 @@ automlを作成しています。
 # 実行手順
 ## 2値分類
 ```python
-from automl import BinnaryClassifier
+from automl import BinaryClassifier
 ```
