@@ -8,5 +8,5 @@ automlを作成しています。
 from automl import BinaryClassifier
 
 model = BinaryClassifier()
-model.fit(X, y, categorical_features = categorical_features, scoring = "auc_roc")
+model.fit(X, y, categorical_features = categorical_features, scoring = "roc_auc")
 ```
